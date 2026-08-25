@@ -1,0 +1,12 @@
+[
+  {"id": "T-01", "message": "I was charged twice for my subscription this month, why?", "expected_category": "Billing"},
+  {"id": "T-02", "message": "The app keeps freezing whenever I open a large report", "expected_category": "Technical"},
+  {"id": "T-03", "message": "I can't log in, it says my account is locked", "expected_category": "Account Access"},
+  {"id": "T-04", "message": "How do I download my invoice from last month?", "expected_category": "Billing"},
+  {"id": "T-05", "message": "My Zapier integration stopped syncing yesterday", "expected_category": "Technical"},
+  {"id": "T-06", "message": "I need to reset my two factor authentication, lost my phone", "expected_category": "Account Access"},
+  {"id": "T-07", "message": "What's the weather like in Mumbai today?", "expected_category": "Out-of-scope"},
+  {"id": "T-08", "message": "asdkjaslkdj", "expected_category": "Out-of-scope"},
+  {"id": "T-09", "message": "Can you help me plan a birthday party for my dog?", "expected_category": "Out-of-scope"},
+  {"id": "T-10", "message": "", "expected_category": "Empty/Invalid"}
+]

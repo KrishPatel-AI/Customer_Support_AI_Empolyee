@@ -1,0 +1,122 @@
+[
+  {
+    "id": "BIL-001",
+    "category": "Billing",
+    "title": "How do I update my payment method?",
+    "question": "How do I update my payment method or credit card?",
+    "answer": "Go to Settings > Billing > Payment Methods, click 'Add New Card', enter your card details, and click 'Set as Default'. Your old card will remain on file until you remove it manually.",
+    "keywords": ["update payment", "change card", "credit card", "payment method"]
+  },
+  {
+    "id": "BIL-002",
+    "category": "Billing",
+    "title": "How do refunds work?",
+    "question": "Can I get a refund if I cancel my subscription?",
+    "answer": "Refunds are prorated for annual plans cancelled within 30 days of purchase. Monthly plans are non-refundable but you retain access until the end of the current billing cycle. Submit a refund request from Settings > Billing > Request Refund.",
+    "keywords": ["refund", "cancel subscription", "money back", "prorated"]
+  },
+  {
+    "id": "BIL-003",
+    "category": "Billing",
+    "title": "Understanding your invoice",
+    "question": "Why was I charged twice this month?",
+    "answer": "Duplicate charges usually happen when a plan upgrade is processed mid-cycle, generating a prorated charge alongside the regular renewal. Check Settings > Billing > Invoice History; each line item lists the reason. If you still see an unexplained duplicate, escalate to billing support with the invoice ID.",
+    "keywords": ["charged twice", "double charge", "invoice", "duplicate charge"]
+  },
+  {
+    "id": "BIL-004",
+    "category": "Billing",
+    "title": "How do I upgrade or downgrade my plan?",
+    "question": "How do I upgrade or downgrade my subscription plan?",
+    "answer": "Navigate to Settings > Billing > Change Plan. Upgrades take effect immediately with a prorated charge; downgrades take effect at the start of the next billing cycle.",
+    "keywords": ["upgrade plan", "downgrade plan", "change plan", "subscription tier"]
+  },
+  {
+    "id": "BIL-005",
+    "category": "Billing",
+    "title": "Where can I download invoices?",
+    "question": "Where can I find and download my past invoices?",
+    "answer": "All invoices are available under Settings > Billing > Invoice History. Click the download icon next to any invoice to get a PDF copy for your records.",
+    "keywords": ["download invoice", "past invoices", "invoice history", "receipt"]
+  },
+  {
+    "id": "TEC-001",
+    "category": "Technical",
+    "title": "App is running slow",
+    "question": "The app is very slow or freezing, what should I do?",
+    "answer": "First, clear your browser cache and try a hard refresh (Ctrl+Shift+R). If the issue persists, check our Status Page for ongoing incidents. Large workspaces (10,000+ records) can also cause slowdowns; try enabling 'Lite Mode' in Settings > Performance.",
+    "keywords": ["slow", "freezing", "lag", "performance", "loading"]
+  },
+  {
+    "id": "TEC-002",
+    "category": "Technical",
+    "title": "Integration/API sync failing",
+    "question": "My third-party integration or API sync is failing",
+    "answer": "Sync failures are most often caused by an expired API token. Go to Settings > Integrations, click 'Reconnect' next to the failing integration, and re-authorize access. Check the Sync Logs tab for the specific error code if the problem continues.",
+    "keywords": ["integration failing", "api sync", "sync error", "webhook not working"]
+  },
+  {
+    "id": "TEC-003",
+    "category": "Technical",
+    "title": "Getting an error message / bug report",
+    "question": "I'm seeing an error message or the app crashed",
+    "answer": "Please note the exact error code or message shown, and try reproducing it in an incognito window to rule out browser extensions. Report bugs via Settings > Help > Report a Bug with a screenshot; our engineering team reviews these within 24 hours.",
+    "keywords": ["error message", "bug", "crash", "not working", "broken"]
+  },
+  {
+    "id": "TEC-004",
+    "category": "Technical",
+    "title": "How do I enable dark mode / mobile app issues",
+    "question": "How do I use the mobile app or enable dark mode?",
+    "answer": "Dark mode can be toggled from Settings > Appearance > Theme. The mobile app (iOS/Android) syncs automatically with your web account; if data looks out of date, pull down to refresh or log out and back in.",
+    "keywords": ["mobile app", "dark mode", "theme", "app not syncing"]
+  },
+  {
+    "id": "TEC-005",
+    "category": "Technical",
+    "title": "Exporting data",
+    "question": "How do I export my data as CSV?",
+    "answer": "Go to the relevant table or report, click the '...' menu in the top-right, and select 'Export as CSV'. Large exports (50,000+ rows) are emailed to you as a download link instead of downloading directly.",
+    "keywords": ["export data", "csv export", "download data"]
+  },
+  {
+    "id": "ACC-001",
+    "category": "Account Access",
+    "title": "I forgot my password",
+    "question": "I forgot my password, how do I reset it?",
+    "answer": "Click 'Forgot Password' on the login page and enter your registered email. You'll receive a reset link valid for 30 minutes. If you don't see the email, check your spam folder or request a new link after it expires.",
+    "keywords": ["forgot password", "reset password", "cant login", "password reset"]
+  },
+  {
+    "id": "ACC-002",
+    "category": "Account Access",
+    "title": "I'm locked out of my account",
+    "question": "My account is locked, how do I get back in?",
+    "answer": "Accounts are temporarily locked after 5 failed login attempts, for 15 minutes. If it's still locked after that, use 'Forgot Password' to reset your credentials, which also clears the lock. Contact support if you're locked out for a reason other than failed logins.",
+    "keywords": ["locked out", "account locked", "cant access account", "suspended"]
+  },
+  {
+    "id": "ACC-003",
+    "category": "Account Access",
+    "title": "Setting up two-factor authentication",
+    "question": "How do I enable or reset two-factor authentication (2FA)?",
+    "answer": "Enable 2FA under Settings > Security > Two-Factor Authentication using an authenticator app (Google Authenticator, Authy). To reset a lost 2FA device, use one of your backup codes, or contact support with proof of identity if you have none.",
+    "keywords": ["two factor", "2fa", "authenticator", "otp"]
+  },
+  {
+    "id": "ACC-004",
+    "category": "Account Access",
+    "title": "Changing my email address",
+    "question": "How do I change the email address linked to my account?",
+    "answer": "Go to Settings > Profile > Email, enter the new address, and confirm via the verification link sent to it. Your old email stays active until the new one is verified.",
+    "keywords": ["change email", "update email", "verify email"]
+  },
+  {
+    "id": "ACC-005",
+    "category": "Account Access",
+    "title": "Managing team member access",
+    "question": "How do I add or remove a teammate's access to the workspace?",
+    "answer": "Workspace admins can manage members under Settings > Team > Members. Click 'Invite' to add someone by email, or the '...' menu next to an existing member to change their role or remove access.",
+    "keywords": ["team access", "add teammate", "remove user", "permissions", "roles"]
+  }
+]
